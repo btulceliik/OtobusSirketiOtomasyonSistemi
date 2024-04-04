@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="yetkiliAnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #021A3E;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.otobussirketiotomasyonu.YetkiliIslemlerController">
+    <children>
+        <Button fx:id="yolcularıGoruntuleButton" layoutX="14.0" layoutY="219.0" mnemonicParsing="false" onAction="#yolcuGoruntule" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: FFD93D; -fx-background-radius: 100;" text="Yolcuları Görüntüle">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="seferleriGoruntuleButton" layoutX="14.0" layoutY="167.0" mnemonicParsing="false" onAction="#seferGoruntule" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: FFD93D; -fx-background-radius: 100;" text="Seferleri Görüntüle">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="seferEkleButton" layoutX="14.0" layoutY="61.0" mnemonicParsing="false" onAction="#seferEkle" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: FFD93D; -fx-background-radius: 100;" text="Sefer Ekle">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="biletleriGoruntuleButton" layoutX="14.0" layoutY="273.0" mnemonicParsing="false" onAction="#biletGoruntule" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: FFD93D; -fx-background-radius: 100;" text="Biletleri Görüntüle">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="seferSilButton" layoutX="14.0" layoutY="114.0" mnemonicParsing="false" onAction="#seferSil" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: FFD93D; -fx-background-radius: 100;" text="Sefer Sil">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <AnchorPane fx:id="biletGoruntulePane" layoutX="145.0" prefHeight="400.0" prefWidth="460.0">
+            <children>
+                <TableView fx:id="biletTable" layoutX="7.0" layoutY="7.0" prefHeight="400.0" prefWidth="500.0">
+                    <columns>
+                        <TableColumn fx:id="otobusSirketAdi" prefWidth="128.79998779296875" text="Otobüs Şirket Adı" />
+                        <TableColumn fx:id="kalkis" prefWidth="90.40000915527344" text="Kalkış Yeri" />
+                        <TableColumn fx:id="varis" prefWidth="98.39996337890625" text="Varış Yeri" />
+                        <TableColumn fx:id="sefer" prefWidth="105.5999755859375" text="Sefer Zamanı" />
+                        <TableColumn fx:id="koltukNo" prefWidth="77.5999755859375" text="Koltuk No" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="yolcuGoruntulePane" layoutX="145.0" prefHeight="400.0" prefWidth="460.0">
+            <children>
+                <TableView fx:id="yolcuTable" layoutX="7.0" layoutY="7.0" prefHeight="400.0" prefWidth="500.0">
+                    <columns>
+                        <TableColumn fx:id="tcNo" prefWidth="107.19992065429688" text="TC Kimlik No" />
+                        <TableColumn fx:id="ad" prefWidth="88.00007629394531" text="Ad" />
+                        <TableColumn fx:id="soyad" prefWidth="85.5999755859375" text="Soyad" />
+                        <TableColumn fx:id="dogumTarihi" prefWidth="108.0" text="Doğum Tarihi" />
+                        <TableColumn fx:id="telefonNo" prefWidth="111.9998779296875" text="Telefon No" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="seferGoruntulePane" layoutX="145.0" prefHeight="400.0" prefWidth="460.0">
+            <children>
+                <TableView fx:id="seferTable" layoutX="7.0" layoutY="7.0" prefHeight="400.0" prefWidth="500.0">
+                    <columns>
+                        <TableColumn fx:id="otobusSirketiAdi" prefWidth="117.60002136230469" text="Otobüs Şirketi Adı" />
+                        <TableColumn fx:id="kalkisYeri" prefWidth="103.20001220703125" text="Kalkış Yeri" />
+                        <TableColumn fx:id="varisYeri" prefWidth="92.79998779296875" text="Varış Yeri" />
+                        <TableColumn fx:id="seferZamani" prefWidth="99.20001220703125" text="Sefer Zamanı" />
+                        <TableColumn fx:id="biletFiyati" prefWidth="91.19989013671875" text="Bilet Fiyatı" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+
+    </children>
+</AnchorPane>

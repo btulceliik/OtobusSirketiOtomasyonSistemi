@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="342.0" prefWidth="611.0" style="-fx-background-color: #E0FDFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.otobussirketiotomasyonu.BiletBilgiController">
+  <children>
+    <AnchorPane fx:id="biletBilgiPane" prefHeight="342.0" prefWidth="611.0" style="-fx-background-color: #021A3E;">
+      <children>
+        <Label fx:id="otobusSirketiAdiLabel" layoutX="260.0" prefHeight="51.0" prefWidth="352.0" textAlignment="CENTER" textFill="#ece7e7">
+          <font>
+            <Font name="System Bold" size="17.0" />
+          </font></Label>
+        <Line endX="510.0" layoutX="101.0" layoutY="51.0" startX="-100.0" stroke="#ece7e7" />
+        <Label fx:id="kalkisLabel" layoutX="45.0" layoutY="150.0" prefHeight="22.0" prefWidth="120.0" text="KALKIŞ:" textFill="#ece7e7">
+          <font>
+            <Font name="System Bold" size="15.0" />
+          </font>
+        </Label>
+        <Label fx:id="varisLabel" layoutX="424.0" layoutY="147.0" prefHeight="22.0" prefWidth="88.0" text="VARIŞ:" textFill="#ece7e7">
+          <font>
+            <Font name="System Bold" size="15.0" />
+          </font>
+        </Label>
+        <Label fx:id="KalkisYeriLabel" layoutX="45.0" layoutY="183.0" prefHeight="20.0" prefWidth="120.0" textFill="#ece7e7">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="varisYeriLabel" layoutX="424.0" layoutY="180.0" prefHeight="18.0" prefWidth="120.0" text="" textFill="#ece7e7">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="SeferLabel" layoutX="45.0" layoutY="232.0" prefHeight="21.0" prefWidth="120.0" text="SEFER ZAMANI:" textFill="#ece7e7">
+          <font>
+            <Font name="System Bold" size="15.0" />
+          </font>
+        </Label>
+        <Label fx:id="seferZamaniLabel" layoutX="44.0" layoutY="265.0" prefHeight="20.0" prefWidth="130.0" textFill="#ece7e7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+        </Label>
+        <Label fx:id="KoltukLabel" layoutX="425.0" layoutY="231.0" text="KOLTUK:" textFill="#ece7e7">
+          <font>
+            <Font name="System Bold" size="15.0" />
+          </font>
+        </Label>
+        <Label fx:id="koltukYeriLabel" layoutX="424.0" layoutY="263.0" prefHeight="20.0" prefWidth="120.0" textFill="#ece7e7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+        </Label>
+        <Label layoutX="193.0" layoutY="303.0" text="İYİ YOLCULUKLAR DİLERİZ.." textFill="#ece7e7">
+          <font>
+            <Font name="System Bold" size="17.0" />
+          </font>
+        </Label>
+            <Label fx:id="adLabel" layoutX="45.0" layoutY="74.0" text="AD:" textFill="#ece7e7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="soyadLabel" layoutX="424.0" layoutY="74.0" text="SOYAD:" textFill="#ece7e7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="adiLabel" layoutX="46.0" layoutY="107.0" prefHeight="20.0" prefWidth="120.0" textFill="#ece7e7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="soyadiLabel" layoutX="425.0" layoutY="105.0" prefHeight="20.0" prefWidth="120.0" textFill="#ece7e7">
+          <font>
+              <Font name="System Bold" size="15.0" />
+          </font>
+            </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

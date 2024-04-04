@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="173.0" prefWidth="600.0" style="-fx-background-color: #ACACAC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.otobussirketiotomasyonu.KoltukSecController">
+    <children>
+        <AnchorPane fx:id="otobus1AnchorPane" prefHeight="173.0" prefWidth="600.0" style="-fx-background-color: #E3E3E3;">
+            <children>
+                <ImageView fitHeight="43.0" fitWidth="45.0" layoutX="12.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+                    <image>
+                        <Image url="@../../../Images/direksiyon.jpeg" />
+                    </image>
+                </ImageView>
+                <Button fx:id="koltuk1" layoutX="75.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk1" prefHeight="26.0" prefWidth="30.0" text="1" />
+                <Button fx:id="koltuk4" layoutX="115.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk4" prefHeight="26.0" prefWidth="30.0" text="4" />
+                <Button fx:id="koltuk7" layoutX="155.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk7" prefHeight="26.0" prefWidth="30.0" text="7" />
+                <Button fx:id="koltuk10" layoutX="195.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk10" prefHeight="26.0" prefWidth="30.0" text="10" />
+                <Button fx:id="koltuk13" layoutX="235.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk13" prefHeight="26.0" prefWidth="30.0" text="13" />
+                <Button fx:id="koltuk16" layoutX="275.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk16" prefHeight="26.0" prefWidth="30.0" text="16" />
+                <Button fx:id="koltuk19" layoutX="315.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk19" prefHeight="26.0" prefWidth="30.0" text="19" />
+                <Button fx:id="koltuk20" layoutX="355.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk20" prefHeight="26.0" prefWidth="30.0" text="20" />
+                <Button fx:id="koltuk21" layoutX="395.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk21" prefHeight="26.0" prefWidth="30.0" text="21" />
+                <Button fx:id="koltuk27" layoutX="475.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk27" prefHeight="26.0" prefWidth="30.0" text="27" />
+                <Button fx:id="koltuk30" layoutX="515.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk30" prefHeight="26.0" prefWidth="30.0" text="30" />
+                <Button fx:id="koltuk33" layoutX="555.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk33" prefHeight="26.0" prefWidth="30.0" text="33" />
+                <Button fx:id="koltuk24" layoutX="435.0" layoutY="124.0" mnemonicParsing="false" onAction="#otobus1Koltuk24" prefHeight="26.0" prefWidth="30.0" text="24" />
+                <Button fx:id="koltuk2" layoutX="75.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk2" prefHeight="26.0" prefWidth="30.0" text="2" />
+                <Button fx:id="koltuk3" layoutX="75.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk3" prefHeight="26.0" prefWidth="30.0" text="3" />
+                <Button fx:id="koltuk5" layoutX="115.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk5" prefHeight="26.0" prefWidth="30.0" text="5" />
+                <Button fx:id="koltuk6" layoutX="115.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk6" prefHeight="26.0" prefWidth="30.0" text="6" />
+                <Button fx:id="koltuk8" layoutX="155.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk8" prefHeight="26.0" prefWidth="30.0" text="8" />
+                <Button fx:id="koltuk9" layoutX="155.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk9" prefHeight="26.0" prefWidth="30.0" text="9" />
+                <Button fx:id="koltuk11" layoutX="195.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk11" prefHeight="26.0" prefWidth="30.0" text="11" />
+                <Button fx:id="koltuk12" layoutX="195.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk12" prefHeight="26.0" prefWidth="30.0" text="12" />
+                <Button fx:id="koltuk14" layoutX="235.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk14" prefHeight="26.0" prefWidth="30.0" text="14" />
+                <Button fx:id="koltuk15" layoutX="235.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk15" prefHeight="26.0" prefWidth="30.0" text="15" />
+                <Button fx:id="koltuk17" layoutX="275.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk17" prefHeight="26.0" prefWidth="30.0" text="17" />
+                <Button fx:id="koltuk18" layoutX="275.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk18" prefHeight="26.0" prefWidth="30.0" text="18" />
+                <Button fx:id="koltuk22" layoutX="355.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk22" prefHeight="26.0" prefWidth="30.0" text="22" />
+                <Button fx:id="koltuk23" layoutX="355.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk23" prefHeight="26.0" prefWidth="30.0" text="23" />
+                <Button fx:id="koltuk25" layoutX="395.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk25" prefHeight="26.0" prefWidth="30.0" text="25" />
+                <Button fx:id="koltuk26" layoutX="395.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk26" prefHeight="26.0" prefWidth="30.0" text="26" />
+                <Button fx:id="koltuk28" layoutX="435.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk28" prefHeight="26.0" prefWidth="30.0" text="28" />
+                <Button fx:id="koltuk29" layoutX="435.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk29" prefHeight="26.0" prefWidth="30.0" text="29" />
+                <Button fx:id="koltuk31" layoutX="475.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk31" prefHeight="26.0" prefWidth="30.0" text="31" />
+                <Button fx:id="koltuk32" layoutX="475.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk32" prefHeight="26.0" prefWidth="30.0" text="32" />
+                <Button fx:id="koltuk34" layoutX="515.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk34" prefHeight="26.0" prefWidth="30.0" text="34" />
+                <Button fx:id="koltuk35" layoutX="515.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk35" prefHeight="26.0" prefWidth="30.0" text="35" />
+                <Button fx:id="koltuk37" layoutX="555.0" layoutY="50.0" mnemonicParsing="false" onAction="#otobus1Koltuk37" prefHeight="26.0" prefWidth="30.0" text="37" />
+                <Button fx:id="koltuk38" layoutX="555.0" layoutY="19.0" mnemonicParsing="false" onAction="#otobus1Koltuk38" prefHeight="26.0" prefWidth="30.0" text="38" />
+                <Button fx:id="koltuk36" layoutX="555.0" layoutY="93.0" mnemonicParsing="false" onAction="#otobus1Koltuk36" prefHeight="26.0" prefWidth="30.0" text="36" />
+            </children>
+        </AnchorPane>
+
+
+    </children>
+</AnchorPane>

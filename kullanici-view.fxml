@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="434.0" prefWidth="612.0" style="-fx-background-color: #021A3E;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.otobussirketiotomasyonu.KullaniciController">
+    <children>
+        <BorderPane layoutX="12.0" layoutY="49.0" prefHeight="336.0" prefWidth="282.0" style="-fx-background-color: #f8f8f8;" />
+        <BorderPane layoutX="320.0" layoutY="48.0" prefHeight="336.0" prefWidth="282.0" style="-fx-background-color: #f8f8f8;" />
+        <Label layoutX="180.0" layoutY="14.0" prefHeight="26.0" prefWidth="282.0" text="Müşteri ve Bilet Bilgilerini Giriniz" textFill="#ece7e7">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="60.0" layoutY="67.0" text="Müşteri Bilgileri">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="36.0" layoutY="103.0" text="T.C. Kimlik No:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="100.0" layoutY="136.0" text="Ad:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="82.0" layoutY="170.0" text="Soyad:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="36.0" layoutY="203.0" text="Doğum Tarihi:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="54.0" layoutY="235.0" text="Telefon No:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="72.0" layoutY="268.0" prefHeight="19.0" prefWidth="63.0" text="Cinsiyet:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="371.0" layoutY="67.0" text="Bilet Bilgileri">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="tcNo" layoutX="131.0" layoutY="98.0" prefHeight="26.0" prefWidth="135.0" />
+        <TextField fx:id="ad" layoutX="131.0" layoutY="132.0" prefHeight="26.0" prefWidth="135.0" />
+        <TextField fx:id="soyad" layoutX="131.0" layoutY="165.0" prefHeight="26.0" prefWidth="135.0" />
+        <TextField fx:id="dogumTarihi" layoutX="131.0" layoutY="198.0" prefHeight="26.0" prefWidth="135.0" />
+        <TextField fx:id="telefon" layoutX="131.0" layoutY="232.0" prefHeight="26.0" prefWidth="135.0" />
+        <ComboBox fx:id="cinsiyet" layoutX="131.0" layoutY="265.0" prefHeight="26.0" prefWidth="135.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Kadın" />
+                    <String fx:value="Erkek" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <Label layoutX="382.0" layoutY="101.0" text="Nereden:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="391.0" layoutY="136.0" prefHeight="18.0" prefWidth="53.0" text="Nereye:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="356.0" layoutY="171.0" text="Sefer Zamanı:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="374.0" layoutY="206.0" text="Araç Türü:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="326.0" layoutY="245.0" text="Otobüs Şirketi Adı:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="374.0" layoutY="278.0" text="Koltuk No:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="kalkisSehir" layoutX="443.0" layoutY="98.0" prefHeight="26.0" prefWidth="135.0" />
+        <ComboBox fx:id="varisSehir" layoutX="443.0" layoutY="132.0" prefHeight="26.0" prefWidth="135.0" />
+        <ComboBox fx:id="seferZamani" layoutX="443.0" layoutY="167.0" prefHeight="26.0" prefWidth="135.0" />
+        <ComboBox fx:id="aracTur" layoutX="443.0" layoutY="202.0" prefHeight="26.0" prefWidth="135.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="2+1" />
+                    <String fx:value="2+2" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <TextField fx:id="koltukNo" layoutX="443.0" layoutY="272.0" prefHeight="26.0" prefWidth="135.0" />
+        <Label layoutX="368.0" layoutY="351.0" text="Bilet Ücreti:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="biletUcreti" layoutX="443.0" layoutY="345.0" prefHeight="26.0" prefWidth="135.0" />
+        <Button fx:id="odemeYap" layoutX="491.0" layoutY="394.0" mnemonicParsing="false" onAction="#odemeYapButton" prefHeight="26.0" prefWidth="104.0" style="-fx-background-radius: 100; -fx-background-color: #FFD93D;" text="ÖDEME YAP" />
+        <Button fx:id="koltukSec" layoutX="464.0" layoutY="308.0" mnemonicParsing="false" onAction="#koltukSecButton" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: #FFD93D; -fx-background-radius: 100;" text="Koltuk Seç" />
+        <ComboBox fx:id="otobusSirketAdi" layoutX="443.0" layoutY="237.0" prefHeight="19.0" prefWidth="135.0" />
+        <FontAwesomeIcon glyphName="TICKET" layoutX="346.0" layoutY="82.0" />
+        <FontAwesomeIcon glyphName="USER" layoutX="37.0" layoutY="80.0" />
+    </children>
+</AnchorPane>
